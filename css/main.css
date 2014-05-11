@@ -1,0 +1,65 @@
+/**
+ * Layout styles
+ */
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin-bottom: 80px;
+	background-color: #F000F0;
+}
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.ui-dialog-titlebar button {
+	visibility: hidden;
+}
+
+/**
+ * Status Widget
+ */
+#status,
+#scroller {
+	padding: 3px;
+	height: 60px;
+}
+
+#time {
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+}
+
+#icons {
+	float: right;
+}
+
+#icons span {
+	color: darkgray;
+}
+
+#icons span.mail {
+	color: red;
+}
+
+/**
+ * Scroller
+ */
+#scroller {
+	opacity: 0;
+	overflow: hidden;
+}
+
+#scroller .message {
+	position: absolute;
+	left: 1900px;
+	min-width: 1000px;
+}

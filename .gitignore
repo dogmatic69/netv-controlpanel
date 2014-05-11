@@ -1,4 +1,5 @@
 *.giosave*
+*sublime*
 index_test.html
 index_testing.html
 favicon.ico
